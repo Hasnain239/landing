@@ -1,0 +1,45 @@
+
+
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.card{
+background: aliceblue;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    flex-basis: 310px;
+    flex-grow: 1;
+    
+
+}
+
+.card img{
+
+    width: 305px;
+    height: 377px;
+    border-radius: 5px;
+}
+
+
+.card h3{
+    flex-grow: 1;
+    font-size: 25px;
+    padding: 5px;
+}
